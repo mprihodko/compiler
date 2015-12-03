@@ -1,0 +1,115 @@
+.form-control-compile{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+.compiler-page-title{
+	font-size: 36px;
+	width: 100%;
+	text-align: center;
+	margin: 40px auto;
+	line-height: 1.5em;
+}
+.compiles-field{	
+	width: 90%;
+	margin: 0 5%;	
+	margin: 0 auto;
+}
+.compiles-field-section{
+	display: inline-block;
+	width: 33.33334%;
+	box-sizing:border-box;
+	float: left;
+	text-align: center;
+	padding: 25px;
+}
+.compiles-field-section h1,
+.compiles-field-section h2,
+.compiles-field-section h3, 
+.compiles-field-section h4,
+.compiles-field-section h5,
+.compiles-field-section h6{
+	text-align: center;
+	line-height: 1.5em;
+}
+.archive label,
+.dump-sql label{
+	font-size: 16px;
+	margin: 10px 0;
+}
+.archive span input[type='file'],
+.dump-sql span input[type='file']{
+	background: #fff;
+	width: 75%;
+	margin: 0 2.5%;
+	display: inline-block;
+}
+.archive button.button,
+.dump-sql button.button{
+	width: 20%;
+	float: right;
+	display: inline-block;
+}
+.archive label,
+.dump-sql label,
+.archive input,
+.dump-sql input,
+.archive,
+.dump-sql{
+	display: block;
+	width: 100%;
+	padding: 5px 10px;
+}
+.current-compile{
+	float: right;
+	margin: 5px 0px;
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+}
+.delete-compile h1,
+.delete-compile h2,
+.delete-compile h3,
+.delete-compile h4,
+.delete-compile h5,
+.delete-compile h6,
+.delete-compile button,
+.current-compile h1,
+.current-compile h2,
+.current-compile h3,
+.current-compile h4,
+.current-compile h5,
+.current-compile h6,
+.current-compile a{
+	display: inline-block;
+	padding: 3px;
+	margin: 0;
+}
+.delete-compile button{
+	/*margin: 17px 0!important;*/
+}
+.compiles-field-section form{
+	margin-bottom: 35px;
+}
+.result_upload {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0;
+    display: block;
+    float: left;
+}
+.result_upload.success{
+	color: #009900;
+}
+.result_upload.success small{
+	color: #444;
+}
+.delete-compile{
+	float: right;
+	margin: 20px 0px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
