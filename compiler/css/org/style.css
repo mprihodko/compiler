@@ -1,0 +1,69 @@
+/*Additional Styles*/
+.done_step{
+    position: relative;
+    z-index: 101;
+}
+.connected {
+    border-radius: 5px;
+    border: 2px solid #368636;
+    color: #368636;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    padding: 0 15px;
+}
+.fail_connect {
+    border-radius: 5px;
+    border: 2px solid #E81C1C;
+    color: #E81C1C;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    padding: 0 15px;
+}
+.db_status {
+    position: relative;
+    left: 20px;
+}
+.warning_connect {
+    border-radius: 5px;
+    border: 2px solid #fac000;
+    color: #fac000;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    padding: 0 15px;
+}
+.loadToFTP, 
+.i_confirm {
+    display: none;
+}
+.w-tabs-list{
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.w-tabs-list:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.w-tabs-item{   
+    position: relative;    
+}
+
+
